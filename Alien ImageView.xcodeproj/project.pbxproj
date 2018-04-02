@@ -14,6 +14,11 @@
 		FE45DF5C2071F7CA000B13DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE45DF5A2071F7CA000B13DA /* LaunchScreen.storyboard */; };
 		FE45DF672071F7CA000B13DA /* Alien_ImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE45DF662071F7CA000B13DA /* Alien_ImageViewTests.swift */; };
 		FE45DF722071F7CA000B13DA /* Alien_ImageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE45DF712071F7CA000B13DA /* Alien_ImageViewUITests.swift */; };
+		FE45DF852071F891000B13DA /* frame2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE45DF802071F891000B13DA /* frame2.png */; };
+		FE45DF862071F891000B13DA /* frame3.png in Resources */ = {isa = PBXBuildFile; fileRef = FE45DF812071F891000B13DA /* frame3.png */; };
+		FE45DF872071F891000B13DA /* frame4.png in Resources */ = {isa = PBXBuildFile; fileRef = FE45DF822071F891000B13DA /* frame4.png */; };
+		FE45DF882071F891000B13DA /* frame5.png in Resources */ = {isa = PBXBuildFile; fileRef = FE45DF832071F891000B13DA /* frame5.png */; };
+		FE45DF892071F891000B13DA /* frame1.png in Resources */ = {isa = PBXBuildFile; fileRef = FE45DF842071F891000B13DA /* frame1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		FE45DF6D2071F7CA000B13DA /* Alien ImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alien ImageViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE45DF712071F7CA000B13DA /* Alien_ImageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alien_ImageViewUITests.swift; sourceTree = "<group>"; };
 		FE45DF732071F7CA000B13DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE45DF802071F891000B13DA /* frame2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame2.png; sourceTree = SOURCE_ROOT; };
+		FE45DF812071F891000B13DA /* frame3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame3.png; sourceTree = SOURCE_ROOT; };
+		FE45DF822071F891000B13DA /* frame4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame4.png; sourceTree = SOURCE_ROOT; };
+		FE45DF832071F891000B13DA /* frame5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame5.png; sourceTree = SOURCE_ROOT; };
+		FE45DF842071F891000B13DA /* frame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame1.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 		FE45DF502071F7CA000B13DA /* Alien ImageView */ = {
 			isa = PBXGroup;
 			children = (
+				FE45DF7F2071F836000B13DA /* Images */,
 				FE45DF512071F7CA000B13DA /* AppDelegate.swift */,
 				FE45DF532071F7CA000B13DA /* ViewController.swift */,
 				FE45DF552071F7CA000B13DA /* Main.storyboard */,
@@ -123,6 +134,18 @@
 				FE45DF732071F7CA000B13DA /* Info.plist */,
 			);
 			path = "Alien ImageViewUITests";
+			sourceTree = "<group>";
+		};
+		FE45DF7F2071F836000B13DA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FE45DF842071F891000B13DA /* frame1.png */,
+				FE45DF802071F891000B13DA /* frame2.png */,
+				FE45DF812071F891000B13DA /* frame3.png */,
+				FE45DF822071F891000B13DA /* frame4.png */,
+				FE45DF832071F891000B13DA /* frame5.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +255,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE45DF872071F891000B13DA /* frame4.png in Resources */,
+				FE45DF892071F891000B13DA /* frame1.png in Resources */,
+				FE45DF882071F891000B13DA /* frame5.png in Resources */,
+				FE45DF862071F891000B13DA /* frame3.png in Resources */,
 				FE45DF5C2071F7CA000B13DA /* LaunchScreen.storyboard in Resources */,
 				FE45DF592071F7CA000B13DA /* Assets.xcassets in Resources */,
+				FE45DF852071F891000B13DA /* frame2.png in Resources */,
 				FE45DF572071F7CA000B13DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
